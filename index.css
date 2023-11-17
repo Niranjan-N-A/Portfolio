@@ -1,0 +1,489 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+button:hover{
+    transform: scale(1.1);
+    border:1px solid white;
+}
+nav{
+    position: absolute;
+    position: fixed;
+    z-index: 5;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(59, 58, 58);
+    font-size: 25px;
+    color: rgb(242, 36, 36);;
+}
+.header{
+    margin-left: 35px;
+}
+.main{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 25px;
+}
+.main h1{
+    margin: auto 10px;
+    text-align: center;
+    height: 32px;
+    width: 100px;
+    font-size: 22px;
+}
+.main h1 a{
+    color:rgb(242, 36, 36);;
+}
+.main h1:hover{
+    background-color:white ;
+    border-radius: 30px;
+}
+
+.bar{
+    display: none;
+}
+#xbar{
+    display: none;
+}
+#check{
+    display: none;
+}
+#checks{
+    display: none;
+}
+
+#check:checked~ .main{
+    left: 0%;
+}
+.container{
+    position: relative;
+}
+.home{
+    position: relative;
+    height: 90vh;
+    background-color:black;
+    color: white;
+}
+.home h4{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    font-size: 30px;
+}
+.home h1{
+position: absolute;
+top: 36%;
+left: 10%;
+font-size: 60px;
+}
+.home h1 span{
+    color: rgb(242, 36, 36);
+}
+.home h3{
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    font-size: 30px;
+    }
+
+ .home p{
+        position: absolute;
+        top: 63%;
+        left: 10%;
+        font-size: 20px;
+        } 
+  .home button{
+    position: absolute;
+        top: 78%;
+        left: 10%;
+        height: 50px;
+        width: 120px;
+        font-size: 18px;
+        border-radius: 25px;
+    background-color:rgb(242, 36, 36);
+    color: white;
+  } 
+  .about{
+    position: inherit;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+  }
+  .image img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-left: 70px;
+    border: 5px solid red;
+    padding: 20px;
+  }
+  .image img:hover{
+    border: none;
+    padding: 0px;
+  }
+  .me {
+    font-size: 20px;
+    margin-left: 120px;
+   
+  }
+  .me h1{
+    margin-bottom: 40px;
+    font-size: 55px;
+  }
+  .me h1{
+    color:rgb(242, 36, 36);
+  }
+  .me h2{
+    color:rgb(242, 36, 36);
+  }
+  .me h1 span{
+    color:white;
+  }
+.me h4{
+    
+   margin-bottom: 40px;
+}
+.me h2{
+    margin-bottom: 30px;
+}
+.me button{
+    width: 120px;
+    height: 50px;
+    color: white;
+    background-color: rgb(242, 36, 36);
+    font-size:18px;
+    border-radius: 20px;
+}
+.skills h1{
+    text-align: center;
+    color:rgb(242, 36, 36);
+    background-color: black;
+    padding: 100px 0px;
+    font-size: 60px;
+}
+.skills h1 span{
+    color: white;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.skill i{
+   font-size: 90px;
+   color:skyblue;
+   margin-left:28px;
+}
+.box1 i{
+    margin-left:40px; 
+}
+.box2 i{
+    margin-left:40px; 
+}
+.box3 i{
+    margin-left:23px; 
+}
+.box4 i{
+    margin-left:35px; 
+}
+.box5 i{
+    margin-left:27px; 
+}
+.skill .box{
+font-size: 20px;
+color: white;
+width: 150px;
+height: 160px;
+background-color: rgb(59, 58, 58);
+/* padding: 40px; */
+padding-top: 20px;
+border-radius: 20px;
+}
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    cursor: pointer;
+}
+.skill h5{
+    margin-left:33px;
+    margin-top:10px;
+    font-size: 20px;
+}
+.box1 h5{
+    margin-left:45px;
+}
+.box2 h5{
+    margin-left:55px;
+}
+.box5 h5{
+    margin-left:40px;
+}
+.education{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+    padding-bottom:30px ;
+    font-size: 14px;
+}
+.myedu h1{
+    color:rgb(242, 36, 36); 
+    background-color: black;
+    padding: 190px 0px 60px 0px;
+    font-size: 60px; 
+    text-align: center;
+}
+
+.myedu h1 span{
+    color: white;
+}
+.education h5{
+    text-align: center;
+    font-size: 60px;
+    color:rgb(242, 36, 36); 
+    padding: 100px;
+}
+.education h1{
+    color: rgb(242, 36, 36);
+}
+.clg,.sch{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(46, 46, 46);
+    padding: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+    border-bottom: 2px solid red;
+}
+.clg:hover{
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    cursor: pointer;  
+}
+.sch:hover{
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    cursor: pointer; 
+}
+.educat{
+    border-left: 2px solid white;
+    padding: 0 30px;
+    padding-bottom:0px;
+    margin-left: 30px;
+}
+.intern{
+    border-left: 2px solid white;
+    padding: 0 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    
+}
+.ship{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(46, 46, 46);
+    padding: 40px;
+    border-bottom: 2px solid red;
+}
+.ship:hover{
+    /* transform:translateY(-30px); */
+    background-color: rgba(255, 255, 255, 0.952);
+    color: black;
+    cursor: pointer; 
+}
+.certificate{
+    background-color: black;
+   display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+   padding: 100px 50px;
+}
+
+.certificate img{
+    margin-left: 25%;
+}
+.certificate h1{
+    padding-left: 55px;
+    padding-bottom: 40px;
+    margin-top:0px;
+    color:rgb(242, 36, 36);
+}
+.backend h1{
+    padding-left: 120px;
+}
+.certificate p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.frontend{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 450px;
+    height: 100%;
+    padding-bottom: 90px;
+}
+.backend{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 450px;
+    height: 100%;
+    padding-bottom: 90px;
+}
+.frontend:hover{
+    transform: translateY(-30px);
+    border: 3px solid rgb(242, 36, 36) ;
+}
+.backend:hover{
+    transform: translateY(-30px);
+    border: 3px solid rgb(242, 36, 36) ;
+}
+.contact{
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.address label{
+    font-size: 30px;
+    color: rgb(242, 36, 36) ;
+}
+.address span{
+    color: white;
+    padding-left: 10px;
+}
+.address h3{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.address h4{
+    margin-top: 20px;
+    margin-bottom:40px;
+    font-size: 25px; 
+}
+.address h4:hover{
+    color:rgb(242, 36, 36)  ;
+}
+.address i{
+    width: 50px;
+    font-size: 30px;
+}
+.frm{
+    margin-top: 30px;
+}
+.frm input{
+    font-size: 20px;
+height: 45px;
+width: 375px;
+color: white;
+background-color:rgb(46, 46, 46);
+border: none;
+border-radius: 20px;
+padding-left: 30px;
+}
+.frm textarea{
+    font-size: 20px;
+/* height: 45px;
+width: 350px; */
+color: white;
+background-color:rgb(46, 46, 46);
+border: none;
+border-radius: 20px;
+padding-left: 30px;
+padding-top: 20px;
+}
+.frm button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: rgb(242, 36, 36);
+    font-size:18px;
+    border-radius: 20px;
+
+}
+
+
+/* Mobile Size */
+@media only screen and (max-width:480px){
+.header{
+    font-size: 20px;
+}
+.main{
+    position:fixed;
+    top: 70px;
+    display: block;
+    background-color:rgb(29, 29, 29);
+    width: 100%;
+    height: 90vh;
+    clip-path: circle(0% at 100% 1%);
+    transition: all 1s;
+}
+.main h1{
+    margin: 60px auto;
+}
+.bar{
+    display: block;
+}
+#check:checked~ .main{
+    /* left: 100%; */
+    clip-path: circle(144% at 100% 1%);
+}
+
+
+}
+
+/* Tab Size */
+@media only screen and (max-width:650px){
+    
+    .main{
+        position:fixed;
+        top: 70px;
+        display: block;
+        background-color:rgb(29, 29, 29);
+        width: 100%;
+        height: 90vh;
+        clip-path: circle(0% at 100% 1%);
+        transition: all 1s;
+    }
+    .main h1{
+        margin: 60px auto;
+    }
+    .bar{
+        display: block;
+    }
+    .main h1{
+        margin: 60px auto;
+    }
+    .bar{
+        display: block;
+    }
+    #check:checked~ .main{
+        /* left: 100%; */
+        clip-path: circle(144% at 100% 1%);
+    }
+}
